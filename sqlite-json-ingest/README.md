@@ -2,9 +2,6 @@
 
 Jetson에서 시간대별로 생성되는 JSON 파일의 region 정보를 SQLite 데이터베이스에 자동으로 저장하는 프로젝트입니다.
 
-## 폴더 구조
-sqlite-json-ingest/ ├─ src/ │ ├─ main.py │ ├─ watch_and_ingest.py │ ├─ show_db.py │ ├─ visualize.py │ ├─ db/ │ │ └─ database.py │ └─ data/ │ └─ (result_*.json 파일들이 저장되는 폴더) ├─ requirements.txt └─
-
 ## 주요 기능
 
 - **JSON → SQLite 자동 저장:**  
